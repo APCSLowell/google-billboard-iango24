@@ -6,11 +6,11 @@ public class GoogleBillboard {
   
 
   //Finish this function
-  public boolean isPrime(double dNum){
-    if (dNum<2)
+  public boolean isPrime(string dNum){
+    if (Double.parseDouble(dNum)<2)
       return false;
-    for (int i=2; i<=Math.sqrt(dNum); i++){
-      if (dNum%i==0)
+    for (int i=2; i<=Math.sqrt(Double.parseDouble(dNum)); i++){
+      if (Double.parseDouble(dNum)%i==0)
         return false;
     }
     return true;
