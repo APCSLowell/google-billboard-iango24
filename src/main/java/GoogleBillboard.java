@@ -9,7 +9,6 @@ public class GoogleBillboard {
         break;
       }
     }
-  }
 }
   
 
@@ -23,4 +22,4 @@ public class GoogleBillboard {
     }
     return true;
   }
-
+}
